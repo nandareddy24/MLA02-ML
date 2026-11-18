@@ -1,0 +1,7 @@
+Linear Regression
+MSE: 52.79999999999997
+R2 Score: 0.9497645211930926
+
+Polynomial Regression
+MSE: 2.3922206950827182e-29
+R2 Score: 1.0

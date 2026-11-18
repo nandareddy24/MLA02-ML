@@ -1,0 +1,29 @@
+
+Algorithm: Logistic Regression
+Accuracy: 0.9824561403508771
+
+Algorithm: KNN
+Accuracy: 0.956140350877193
+
+Algorithm: Decision Tree
+Accuracy: 0.9122807017543859
+
+Algorithm: Random Forest
+Accuracy: 0.956140350877193
+
+Algorithm: Naive Bayes
+Accuracy: 0.9385964912280702
+
+Algorithm: SVM
+Accuracy: 0.9824561403508771
+
+Classification Algorithm Comparison
+             Algorithm  Accuracy
+0  Logistic Regression  0.982456
+1                  KNN  0.956140
+2        Decision Tree  0.912281
+3        Random Forest  0.956140
+4          Naive Bayes  0.938596
+5                  SVM  0.982456
+
+Best Performing Algorithm: Logistic Regression

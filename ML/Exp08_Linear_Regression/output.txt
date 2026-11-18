@@ -1,0 +1,7 @@
+Actual Values: [18  4]
+Predicted Values: [18.  4.]
+Slope: [2.]
+Intercept: -1.7763568394002505e-15
+Mean Squared Error: 3.944304526105059e-31
+R2 Score: 1.0
+Prediction for 11: [22.]

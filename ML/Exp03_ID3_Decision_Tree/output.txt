@@ -1,0 +1,26 @@
+Decision Tree:
+|--- Outlook_Overcast <= 0.50
+|   |--- Humidity_Normal <= 0.50
+|   |   |--- Outlook_Rain <= 0.50
+|   |   |   |--- class: No
+|   |   |--- Outlook_Rain >  0.50
+|   |   |   |--- Wind_Strong <= 0.50
+|   |   |   |   |--- class: Yes
+|   |   |   |--- Wind_Strong >  0.50
+|   |   |   |   |--- class: No
+|   |--- Humidity_Normal >  0.50
+|   |   |--- Wind_Strong <= 0.50
+|   |   |   |--- class: Yes
+|   |   |--- Wind_Strong >  0.50
+|   |   |   |--- Outlook_Sunny <= 0.50
+|   |   |   |   |--- class: No
+|   |   |   |--- Outlook_Sunny >  0.50
+|   |   |   |   |--- class: Yes
+|--- Outlook_Overcast >  0.50
+|   |--- class: Yes
+
+New Sample:
+  Outlook Temperature Humidity  Wind
+0   Sunny        Cool   Normal  Weak
+
+Predicted Class: Yes
